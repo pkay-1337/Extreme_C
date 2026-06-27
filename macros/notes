@@ -8,3 +8,8 @@ Macros have a number of applications and you can see some of them as follows:
 •Code generation
 •Conditional compilation
 
+the # and ## operators:
+	the # operator used before the NAME parameter turns it into "copy" in the preprocessed code.
+	The ## operator has a different meaning. It just concatenates the parameters to other elements in the macro definition
+
+
