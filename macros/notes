@@ -1,2 +1,10 @@
 C directives are lines of code starting with a # character
 
+Macros have a number of applications and you can see some of them as follows:
+•Defining a constant
+•Using as a function instead of writing a C function
+•Loop unrolling
+•Header guards
+•Code generation
+•Conditional compilation
+
