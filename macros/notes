@@ -13,3 +13,15 @@ the # and ## operators:
 	The ## operator has a different meaning. It just concatenates the parameters to other elements in the macro definition
 
 
+If a macro can be written as a C function, then you should write
+a C function instead!
+
+Conditional:
+	$ gcc -o conditional conditional.c -D VAR
+	$ ./conditional
+	i+j = 110
+	$ gcc -o conditional conditional.c
+	$ ./conditional
+	i+j = 210
+	$
+
